@@ -26,6 +26,8 @@ body {
 }
 
 .logo-altpages {
+    margin: 0 auto;
+    display: block;
     border-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 10px 10px;
@@ -62,6 +64,13 @@ body {
     font-size: 20px;
 }
 
+.input {
+    background: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+}
 
 .btn-container {
     /* Create a separate container for the .btn elements */

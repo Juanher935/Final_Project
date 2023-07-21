@@ -4,25 +4,24 @@
         <meta charset="utf-8">
         <title>Calculate Estimates</title>
         <link rel="stylesheet" href="C:\Users\Juan\Desktop\CS 351\Final_Project\css\style.css">
+        <script src="C:\Users\Juan\Desktop\CS 351\Final_Project\js\estimate calculator.js"></script>
     </head>
 
     <body style="background-color: cyan;">
         <div class="container">
-            <img src="C:\Users\Juan\Desktop\CS 351\Final_Project\images\Logo Design.jpg" width="50%" class="logo-altpages">
             <div class="heading-container">
                 <h1 class="heading">Hernandez Landscaping</h1>
                 <h2 class="subheading"> Owner: Juan Hernandez</h2>
             </div>
+            <img src="C:\Users\Juan\Desktop\CS 351\Final_Project\images\Logo Design.jpg" width="25%" class="logo-altpages">
             <div class="main-text-container">
-                <p class="main-text"> What we provide: </p>
-                <ul class="main-text">
-                    <li>Lawn Mowing</li>
-                    <li>Bush Trimming</li>
-                    <li>Irrigation Repair</li>
-                    <li>Tree Trimming/Removal</li>
-                    <li>Planting</li>
-                    <li>Clean Ups for the whole yard (If Needed)</li>
-                </ul>
+                <h1 class="subheading"> Calculate an Estimate for Lawn Mowing: </h1>
+                <p class="main-text">Width (ft):</p>
+                <input type="number" class="input" id="width" value="15" placeholder="Enter your height in cm">
+                <p class="main-text">Length (ft):</p>
+                <input type="number" class="input" id="length" value="15" placeholder="Enter your Weight in kg">
+                <button class="btn" id="btn">Calculate Estimate</button>
+                <input disabled type="text" class="input" id="estimate-result">
             </div>
             <div class="btn-container">
                 <a href="C:\Users\Juan\Desktop\CS 351\Final_Project\html\index.html" class="btn" id="btn">Home Page</a>
